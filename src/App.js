@@ -28,9 +28,17 @@ export default function App() {
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-white text-green-600 px-6 py-3 rounded-lg shadow font-semibold">
-            Download App
-          </button>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://expo.dev/accounts/okidijimmyjones/projects/cliniclite/builds/03e51c3a-2370-4c0c-8f93-1bab07392d69",
+                  "_blank"
+                )
+              }
+              className="bg-white text-green-600 px-6 py-3 rounded-lg shadow font-semibold"
+            >
+              Download App
+            </button>
 
           <a
             href="https://wa.me/256788926713"
@@ -201,9 +209,16 @@ export default function App() {
             </button>
           </a>
 
-          <button className="border border-white text-white px-6 py-3 rounded-lg">
+          <button
+            onClick={() => window.open(
+              "https://expo.dev/accounts/okidijimmyjones/projects/cliniclite/builds/03e51c3a-2370-4c0c-8f93-1bab07392d69", 
+              "_blank"
+            )}
+            className="border border-white text-white px-6 py-3 rounded-lg"
+          >
             Download App
           </button>
+
         </div>
       </section>
     </div>
